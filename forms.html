@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+    <style>
+        form{
+            background-image: url("images/lion.jpg");
+            margin: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        div{
+            padding: 10px;
+        }
+
+     .inputstyle{
+         width: 40%;
+         padding: 10px 5px;
+         border-radius: 8px;
+         border: none;
+     }
+     label{
+         padding: 4px;
+         margin: 1px;
+     }
+     .spanstyle{
+         margin: 10px;
+     }
+     .otherspan{
+         margin-left: 500px;
+     }
+     .buttonstyle{
+         width: 20%;
+         border: none;
+         background-color: green;
+         border-radius: 8px;
+         padding: 10px 10px;
+     }
+     h3{
+         text-align: center;
+         font-family: Broadway;
+     }
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+<h3>Fill this form to complete our admission</h3>
+<form action="#">
+     <div>
+    <label>First Name</label><br>
+    <input class="inputstyle" type="text" name="firstname">
+
+    <label>Second Name</label>
+    <input class="inputstyle" type="text" name="second name">
+     </div>
+
+    <div>
+    <label>Email Address</label>
+    <input class="inputstyle" type="email" name="emailaddress">
+
+    <label>Phone Number</label>
+    <input class="inputstyle" type="tel" name="phonenumber">
+    </div>
+
+    <div>
+        <label>Date of Birth</label>
+        <input class="inputstyle" type="date" name="dob">
+
+        <label>Date of Admission</label>
+        <input class="inputstyle" type="datetime-local" name="doa">
+    </div>
+
+    <div>
+        <span class="spanstyle">
+        <label>Gender</label>
+
+        <input type="radio" name="gender" value="male">
+        <label>Male</label>
+
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+        </span>
+
+        <span class="otherspan">
+        <label>Hobby</label>
+        <input type="checkbox" name="hobby" value="coding">
+        <label>Coding</label>
+        <input type="checkbox" name="hobby" value="swimming">
+        <label>Swimming</label>
+        <input type="checkbox" name="hobby" value="reading">
+        <label>Reading</label>
+        </span>
+
+    </div>
+
+    <div>
+        <label>Upload your files</label>
+        <input class="inputstyle" type="file" name="files">
+
+        <label>County</label>
+        <select class="inputstyle" name="county">
+            <option value="nairobi">Nairobi</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="eldoret">Eldoret</option>
+            <option value="mombasa">Mombasa</option>
+        </select>
+
+
+
+
+    </div>
+
+    <div>
+        <input class="buttonstyle" type="submit" value="submit" onclick="alert('Thank you')">
+    </div>
+
+
+
+    
+</form>
+
+
+
+
+
+</body>
+</html>

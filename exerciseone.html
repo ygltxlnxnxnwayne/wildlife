@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exerciseone</title>
+    <style>
+
+        table{
+            width: 70%;
+            border: 2px solid green;
+            background-color: peru;
+            border-collapse: collapse;
+            margin: 70px;
+            font-family: "Times New Roman";
+        }
+
+        td , th {
+            border: 2px solid green;
+            padding: 20px;
+            text-align: left;
+        }
+        div{
+            padding: 10px;
+        }
+        .buttonstyle{
+            width: 20%;
+            border: none;
+            background-color: blue;
+            border-radius: 8px;
+            padding: 10px 10px;
+            text-align: center;
+        }
+        .inputstyle{
+            width: 40%;
+            padding: 10px 5px;
+            border-radius: 8px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<h4 style="color: darkblue; text-align: center; font-family: Broadway" >Welcome To The Petstore</h4>
+
+<center><img  src="images/german.jpg" alt="loading" ></center>
+
+<p style="border: solid">
+    A pet, or companion animal, is an animal kept primarily for a person's company or entertainment rather than as a working animal, livestock, or a laboratory animal.
+    Popular pets are often considered to have attractive appearances, intelligence, and relatable personalities, but some pets may be taken in on an altruistic basis (such as a stray animal) and accepted by the owner regardless of these characteristics.
+    Pets provide their owners both physical and emotional benefits.
+    Walking a dog can provide both the human and the dog with exercise, fresh air, and social interaction.
+    Pets can give companionship to people who are living alone or elderly adults who do not have adequate social interaction with other people.
+</p>
+<table>
+    <tr>
+        <th>Pet Name</th>
+        <th>Service</th>
+        <th>Cost</th>
+    </tr>
+    <tr>
+        <th>x</th>
+        <th>x</th>
+        <th>x</th>
+    </tr>
+    <tr>
+        <th>x</th>
+        <th>x</th>
+        <th>x</th>
+    </tr>
+    <tr>
+        <th>x</th>
+        <th>x</th>
+        <th>x</th>
+    </tr>
+
+
+</table>
+
+<h3 style="color: darkblue; text-align: left; font-family: Algerian" >Please fill in the form below:</h3>
+<form action="#">
+    <div>
+    <label>Full Names</label>
+    <input class="inputstyle" type="text" name="fullnames">
+
+        <label>Email Address</label>
+        <input class="inputstyle" type="email" name="emailaddress">
+    </div>
+    <span>
+    <div>
+        <label>Location</label>
+        <select name="location">
+            <option value="nairobi">Nairobi</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="eldoret">Eldoret</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kericho">Kericho</option>
+            <option value="nakuru">Nakuru</option>
+        </select>
+    </div>
+        </span>
+    <div>
+        <label>Phone Number</label>
+        <input class="inputstyle" type="tel" name="phonenumber">
+    </div>
+    <div>
+        <input class="buttonstyle" type="submit" value="submit" onclick="alert('Thank you')">
+    </div>
+
+
+
+
+</form>
+
+</body>
+</html>

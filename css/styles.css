@@ -1,0 +1,103 @@
+
+.topnav{
+    background-color: darkseagreen;
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.topnav a:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.landimg{
+    background-image: url("../images/simba.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color: yellow;
+}
+
+.landtext{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.landbtn{
+    background-color: darkseagreen;
+    padding: 12px 12px;
+    color: white;
+    border-radius: 8px;
+    width: 40%;
+    border: none;
+}
+
+.separate{
+    margin-top: 5px;
+}
+
+.landbtn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.tablestyle{
+    width: 80%;
+    border: 1px solid darkseagreen;
+    background-color: darkseagreen;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.tablestyle th,td{
+    border: 1px solid black;
+
+    padding: 12px;
+    text-align: center;
+}
+.flexbox{
+    display: flex;
+    margin-top: 10px;
+}
+.flexbox div{
+    margin: 10px;
+}
+.flexbox p{
+    border: 1px solid black;
+    text-align: center;
+}
+.flexbox h3{
+    text-align: center;
+    font-family: monospace;
+}
+.formstyle{
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+}
+.formstyle input{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        form{
+            margin: 40px;
+            border: 4px solid peru;
+            background-image: url("images/download.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div{
+            padding: 10px;
+        }
+
+        .contactinput{
+            width: 70%;
+            padding: 12px 12px;
+            margin: 8px 0px;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 1px solid red;
+            border-radius: 4px;
+        }
+        .classstyle{
+            text-align: center;
+            font-family: Broadway;
+            color: darkblue;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<h3 class="classstyle">Fill in the form below</h3>
+<form action="#">
+
+    <div>
+        <label>Full Name *</label> <br>
+        <input class="contactinput" type="text" name="fullname" placeholder="e.g John Doe" required>
+    </div>
+
+    <div>
+        <label>Email Address *</label> <br>
+        <input class="contactinput" type="email" name="emailaddress" placeholder="e.g waynemwendwa@gmail.com" required>
+    </div>
+
+    <div>
+        <label>Phone Number *</label> <br>
+        <input class="contactinput" type="tel" name="pnumber" value="+254" required>
+    </div>
+
+    <div>
+        <label>County</label> <br>
+        <select class="contactinput" name="county" id="county">
+            <option value="nairobi">Mombasa</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="eldoret">Eldoret</option>
+            <option value="mombasa">Mombasa</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Booking</label> <br>
+        <input class="contactinput" type="datetime-local" name="booking">
+    </div>
+
+    <div>
+        <input type="submit" name="submit">
+
+    </div>
+
+
+
+
+
+
+</form>
+
+</body>
+</html>

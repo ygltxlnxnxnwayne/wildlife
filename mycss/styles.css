@@ -1,0 +1,73 @@
+.topnav{
+    background-color: navy;
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    padding: 14px 14px;
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: "Broadway";
+}
+.topnav a:hover{
+    background-color: white;
+    color: navy;
+}
+.landtext{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: Broadway, serif;
+}
+.landbtn{
+    background-color: navy;
+    padding: 12px 12px;
+    color: white;
+    border-radius: 8px;
+    width: 40%;
+    border: 1px solid navy;
+    font-family: Broadway;
+}
+.landbtn:hover{
+    background-color: white;
+    color: navy;
+}
+.landimg{
+    background-image: url("../images/w.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: navy;
+}
+.separate{
+    margin-top: 5px;
+}
+.paragraph{
+    border: 1px solid navy;
+    background-color: navy;
+    color: white;
+    border-radius: 8px;
+}
+.landtext:hover{
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+    border-radius: 15px;
+}
+.inputstyle{
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: navy;
+    color: white;
+}
+
+
